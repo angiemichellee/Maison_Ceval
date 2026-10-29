@@ -1,15 +1,14 @@
-
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CategoryController;
 use App\Models\Category;
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CategoryController;
 use App\Models\Contact;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 use App\Models\Home;
-use App\Http\Controllers\MenuController;
+use App\Http\Controllers\HomeController;
 use App\Models\Menu;
+use App\Http\Controllers\MenuController;
 
 Route::get('/category', 
     [CategoryController::class,'category']
